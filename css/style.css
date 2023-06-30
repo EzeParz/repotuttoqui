@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav,
+main,
+header,
+footer{
+    width: 100%;
+}
+nav{
+    padding: 0.3em 1.2em;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+
+ 
+}
+    nav img{
+        width: 4.1em;
+    }
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+            nav ul li a{
+                text-decoration:none;
+                color: rgb(190, 218, 37);;
+                font-size: 1.2em;
+                font-weight: 800;  
+                margin-left: 2em;
+            }
+.padding{
+    padding: 15px 30px;
+}
+    main div h1,
+    section h1,
+    main h1{
+        margin: 1em;
+        text-align: center;
+    }
+section article{
+    margin-bottom: 25px;
+    padding: 0 7em;
+    display: flex;
+    justify-content:space-around;
+    /* background-color: #DF0611; */
+}    
+.intro{
+    width: 18.75em;
+    margin: 0.93em;
+    
+}
+    .productos .centrar2 img,
+    .frutas article img,
+    .verduras article img{
+        width: 10em; 
+        }
+footer a img{
+    width: 2.3em;
+    
+}   
+.productos article{
+    margin: 1em;
+}
+.productos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.bggray{
+    background-color: rgb(199, 176, 176);
+    border: 1px solid black;
+}
+.espacio2, .section h2{
+    margin-bottom: 15px;
+}
+.centrar{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 20em;
+    
+}
+.espacio{
+    margin-top: 5em;
+}
+.productosinicio{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 5em; */
+    width: 100%;
+}
+.espacio h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+.centrar2 h2{
+    width: 15em;
+}
+.centrar2{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 21.5em;
+    height: 20em
+}
+section article h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+.centrar3{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23em;
+    /* background-color: #DF0611; */
+}
+.centrar3 img,
+.centrar2 img{
+    width: 15em;
+    border-radius: 20%;
+}
+h3{
+    width: 10em;
+    font-size: 1.5em;
+}
+.fv{
+    padding-left: 5%;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    font-size: 2.3em;
+    /* background-color: #DF0611 */;
+}
+.espacio2{
+    /* background-color: #DF0611; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.centrar4{
+    width: 20em;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    /* background-color: brown; */
+}
+.centrar4 h2,
+.centrar5 h2{
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+    /* text-align: start; */
+}
+.centrar5{
+    width: 30em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    /* background-color: aqua; */
+}
+.centrar5 iframe{
+    width: 25em;
+}
+input{
+    display: flex;
+}
+.boton{
+    display: flex;
+}
+.enviar{
+    margin-left: 1em;
+}
+.espacio3{
+    padding-top: 7em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.fondo{
+    background-image: url(../img/fondo/fondo2.jpg);
+    height: 100%;
+}
+.centrar3 h2{
+    color: white;
+    margin-bottom: 1em;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 4em;
+}
+footer a{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.fondo2{
+    background-image: url(../img/fondo/muro-hormigon-gris.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+/* Media */
+@media (width <1024px){
+    .media{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .intro{
+        width: 15em;
+    }
+    
+    .media2{
+        flex-wrap: wrap;
+    }
+    .productos{
+        justify-content: center;
+    }
+    .centrar2 h2{
+        width: 10em;
+    }
+    .centrar5{
+        width: 20em;
+    }
+    .centrar5 iframe{
+        height: 25em;
+        width: 18em;
+        text-align: center;
+    }
+}
+@media (width <320px){
+    .centrar5{
+        width: 100%;
+    }
+    .centrar5 iframe{
+        width: 15em;
+    }
+    .centrar4{
+        width: 100%;
+    }
+}
