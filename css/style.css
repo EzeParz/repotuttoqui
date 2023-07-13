@@ -18,6 +18,7 @@ nav{
     align-items: center;
     position: fixed;
     z-index: 100;
+    background-color:transparent;
 
  
 }
