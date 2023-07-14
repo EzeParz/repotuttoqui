@@ -1,0 +1,38 @@
+@media (width <1024px){
+    .media{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .intro{
+        width: 15em;
+    }
+    
+    .media2{
+        flex-wrap: wrap;
+    }
+    .productos{
+        justify-content: center;
+    }
+    .centrar2 h2{
+        width: 10em;
+    }
+    .centrar5{
+        width: 20em;
+    }
+    .centrar5 iframe{
+        height: 25em;
+        width: 18em;
+        text-align: center;
+    }
+}
+@media (width <320px){
+    .centrar5{
+        width: 100%;
+    }
+    .centrar5 iframe{
+        width: 15em;
+    }
+    .centrar4{
+        width: 100%;
+    }
+}

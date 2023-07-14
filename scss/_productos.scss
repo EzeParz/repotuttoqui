@@ -1,0 +1,57 @@
+.productos .centrar2 img,
+.frutas article img,
+.verduras article img{
+    width: 10em; 
+}
+.productos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    article{
+        margin: 1em;
+    }
+}
+.productosinicio{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.espacio{
+    padding-top: 5em;
+}
+.espacio2, .section h2{
+    margin-bottom: 15px;
+}
+.centrar2{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23em;
+    h2{
+        width: 15em;
+    }
+    img{
+        width: 15em;
+        border-radius: 20%;
+        transition: 0.5s;
+    }
+}
+.centrar3{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23em;
+    img{
+        width: 15em;
+        border-radius: 20%;
+        transition: 0.5s;
+    }
+    h2{
+        width: 15em;
+    }
+}

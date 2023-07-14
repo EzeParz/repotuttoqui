@@ -1,0 +1,28 @@
+#nav1{
+    padding: 0.3em 1.2em;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color:transparent;
+    width: 100%;
+    img{
+        width: 3.5em;
+    }
+    #colornav{
+       list-style: none;
+       display: flex;
+        li a{
+            text-decoration:none;
+            font-family: $fuente;
+            color: $colorText;
+            font-size: 1.2em;
+            font-weight: 500;  
+            margin-left: 2em;
+            &:hover{
+                color:$sombra;
+            }
+       } 
+    }
+}

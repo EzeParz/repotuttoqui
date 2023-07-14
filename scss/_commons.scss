@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $fuente;
+}
+main,
+header{
+    width: 100%;
+}
+
+.padding{
+    padding: 15px 30px;
+}
+main div h1,
+section h1,
+main h1{
+    margin: 1em;
+    text-align: center;
+    width: 100%;
+}
+section article{
+    margin-bottom: 25px;
+    padding: 0 7em;
+    display: flex;
+    justify-content:space-around;
+} 
+.intro{
+    width: 18.75em;
+    margin: 0.93em;  
+}
+section article h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+h3{
+    width: 10em;
+    font-size: 1.5em;
+}   
+.fv{
+    padding-left: 5%;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    font-size: 2.3em;
+}
+.espacio2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 6em;
+}
+.centrar4{
+    width: 20em;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    h2{
+        margin-bottom: 1.5em;
+        font-size: 2.5em;
+    }
+}
+.centrar5{
+    width: 30em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    h2{
+        margin-bottom: 1.5em;
+        font-size: 2.5em;
+    }
+    iframe{
+        width: 25em;
+    }
+}
+input{
+    display: flex;
+}
+.boton{
+    display: flex;
+}
+.enviar{
+    margin-left: 1em;
+}
+.espacio3{
+    padding-top: 7em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.fondo{
+    background-image: url(../img/fondo/fondo2.jpg);
+    height: 100%;
+}
+.fondo2{
+    background-image: url(../img/fondo/muro-hormigon-gris.jpg);
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+#width100{
+    width: 100%;
+}

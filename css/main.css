@@ -1,3 +1,284 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap"); /* Colores */
+/* Tipografia */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+main,
+header {
+  width: 100%;
+}
+
+.padding {
+  padding: 15px 30px;
+}
+
+main div h1,
+section h1,
+main h1 {
+  margin: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+section article {
+  margin-bottom: 25px;
+  padding: 0 7em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro {
+  width: 18.75em;
+  margin: 0.93em;
+}
+
+section article h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h3 {
+  width: 10em;
+  font-size: 1.5em;
+}
+
+.fv {
+  padding-left: 5%;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  font-size: 2.3em;
+}
+
+.espacio2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 6em;
+}
+
+.centrar4 {
+  width: 20em;
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centrar4 h2 {
+  margin-bottom: 1.5em;
+  font-size: 2.5em;
+}
+
+.centrar5 {
+  width: 30em;
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.centrar5 h2 {
+  margin-bottom: 1.5em;
+  font-size: 2.5em;
+}
+.centrar5 iframe {
+  width: 25em;
+}
+
+input {
+  display: flex;
+}
+
+.boton {
+  display: flex;
+}
+
+.enviar {
+  margin-left: 1em;
+}
+
+.espacio3 {
+  padding-top: 7em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.fondo {
+  background-image: url(../img/fondo/fondo2.jpg);
+  height: 100%;
+}
+
+.fondo2 {
+  background-image: url(../img/fondo/muro-hormigon-gris.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+#width100 {
+  width: 100%;
+}
+
+.centrar3 img:hover {
+  width: 17em;
+  transition: 0.5s;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4em;
+}
+footer a {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+footer a img {
+  width: 2.3em;
+}
+
+.productos .centrar2 img,
+.frutas article img,
+.verduras article img {
+  width: 10em;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.productos article {
+  margin: 1em;
+}
+
+.productosinicio {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.espacio {
+  padding-top: 5em;
+}
+
+.espacio2, .section h2 {
+  margin-bottom: 15px;
+}
+
+.centrar2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 23em;
+}
+.centrar2 h2 {
+  width: 15em;
+}
+.centrar2 img {
+  width: 15em;
+  border-radius: 20%;
+  transition: 0.5s;
+}
+
+.centrar3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 23em;
+}
+.centrar3 img {
+  width: 15em;
+  border-radius: 20%;
+  transition: 0.5s;
+}
+.centrar3 h2 {
+  width: 15em;
+}
+
+#nav1 {
+  padding: 0.3em 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  background-color: transparent;
+  width: 100%;
+}
+#nav1 img {
+  width: 3.5em;
+}
+#nav1 #colornav {
+  list-style: none;
+  display: flex;
+}
+#nav1 #colornav li a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: rgb(190, 218, 37);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-left: 2em;
+}
+#nav1 #colornav li a:hover {
+  color: rgba(11, 11, 11, 0.731);
+}
+
+@media (width < 1024px) {
+  .media {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro {
+    width: 15em;
+  }
+  .media2 {
+    flex-wrap: wrap;
+  }
+  .productos {
+    justify-content: center;
+  }
+  .centrar2 h2 {
+    width: 10em;
+  }
+  .centrar5 {
+    width: 20em;
+  }
+  .centrar5 iframe {
+    height: 25em;
+    width: 18em;
+    text-align: center;
+  }
+}
+@media (width < 320px) {
+  .centrar5 {
+    width: 100%;
+  }
+  .centrar5 iframe {
+    width: 15em;
+  }
+  .centrar4 {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
