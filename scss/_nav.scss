@@ -5,10 +5,11 @@
     align-items: center;
     position: fixed;
     z-index: 100;
-    background-color:transparent;
+    background-color:$fondo1;
     width: 100%;
     img{
         width: 3.5em;
+        border-radius: 50%;
     }
     #colornav{
        list-style: none;

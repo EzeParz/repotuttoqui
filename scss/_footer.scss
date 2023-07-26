@@ -1,14 +1,30 @@
 footer{
     width: 100%;
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: 4em;
-    a{
-        margin-left: 2em;
-        margin-right: 2em;
+    justify-content:space-evenly;
+    height: 6em;
+    background-color: $fondo1;
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         img{
             width: 2.3em;
         }
+    }
+    .typPf{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.copyright{
+    width: 100%;
+    background-color: $fondo1;
+    color: $sombra;
+    h3{
+        font-size: $medidaFooter;
+        text-align: center;
+        width: 100%;
     }
 }

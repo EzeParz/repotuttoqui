@@ -4,29 +4,42 @@
     font-family: $fuente;
 }
 main,
-header{
+#header1{
     width: 100%;
-}
-
-.padding{
-    padding: 15px 30px;
 }
 main div h1,
 section h1,
 main h1{
-    margin: 1em;
+    padding: 1em;
     text-align: center;
     width: 100%;
 }
 section article{
     margin-bottom: 25px;
-    padding: 0 7em;
     display: flex;
     justify-content:space-around;
 } 
-.intro{
-    width: 18.75em;
-    margin: 0.93em;  
+
+.intro1{
+    display: flex;
+    justify-content: space-around;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 15em;
+        .intro{
+            width: 10.75em;
+            margin: 2em;  
+        }
+        h2{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    }
 }
 section article h2{
     font-size: 1.5em;
@@ -46,7 +59,7 @@ h3{
     display: flex;
     align-items: center;
     width: 100%;
-    padding-top: 6em;
+    padding-top: 5.55em;
 }
 .centrar4{
     width: 20em;
@@ -108,4 +121,8 @@ h1{
 }
 #width100{
     width: 100%;
+}
+.color1 h2{
+    color: $sombra;
+    font-weight: bold;
 }

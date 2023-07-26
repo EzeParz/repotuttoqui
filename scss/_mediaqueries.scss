@@ -13,9 +13,14 @@
     .productos{
         justify-content: center;
     }
-    .centrar2 h2{
-        width: 10em;
-    }
+    .centrar2{
+        h2{
+            width: 10em;
+        }
+        img{
+            width: 15em;
+        }
+    }  
     .centrar5{
         width: 20em;
     }

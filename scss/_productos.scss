@@ -1,13 +1,7 @@
-.productos .centrar2 img,
-.frutas article img,
-.verduras article img{
-    width: 10em; 
-}
 .productos{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 25px;
+    justify-content: space-around;
     article{
         margin: 1em;
     }
@@ -19,6 +13,19 @@
 }
 .espacio{
     padding-top: 5em;
+    h1{
+        color: $sombra;
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+.espacio3{
+    padding-top: 5em;
+    h1{
+        color: rgb(84, 74, 74);
+        font-size: 2em;
+        font-weight: bold;
+    }
 }
 .espacio2, .section h2{
     margin-bottom: 15px;
@@ -28,15 +35,14 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 23em;
+    justify-content:center;
     h2{
         width: 15em;
     }
     img{
-        width: 15em;
-        border-radius: 20%;
+        width: 18em;
         transition: 0.5s;
+        border: black 1px;
     }
 }
 .centrar3{
@@ -54,4 +60,38 @@
     h2{
         width: 15em;
     }
+}
+#productos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 15em;
+        .botonInfo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 8em;
+            height: 5em;
+            a{
+                width: 4em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.2s;
+            }
+        }
+        h2{
+            width: 100%;
+            color: $sombra;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+    }
+       
 }
