@@ -59,13 +59,6 @@ h3 {
   font-size: 1.5em;
 }
 
-.fv {
-  padding-left: 5%;
-  margin-bottom: 2em;
-  padding-top: 1em;
-  font-size: 2.3em;
-}
-
 .espacio2 {
   display: flex;
   align-items: center;
@@ -201,6 +194,12 @@ footer .typPf {
   margin: 1em;
 }
 
+.productos1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .productosinicio {
   display: flex;
   justify-content: space-around;
@@ -214,6 +213,8 @@ footer .typPf {
   color: rgba(234, 222, 222, 0.895);
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .espacio3 {
@@ -267,6 +268,9 @@ footer .typPf {
   flex-direction: column;
   align-items: center;
 }
+#productos1 img {
+  width: 16.5em;
+}
 #productos1 .card-body {
   display: flex;
   flex-direction: column;
@@ -292,6 +296,49 @@ footer .typPf {
   width: 100%;
   color: rgba(234, 222, 222, 0.895);
   font-size: 1.5em;
+  font-weight: bold;
+}
+
+#productos2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+}
+#productos2 img {
+  width: 23em;
+}
+#productos2 .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15em;
+}
+#productos2 .card-body .botonInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8em;
+  height: 5em;
+}
+#productos2 .card-body .botonInfo a {
+  width: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+#productos2 .card-body h3 {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.fv {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 2em;
   font-weight: bold;
 }
 
