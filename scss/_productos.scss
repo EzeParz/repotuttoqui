@@ -43,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content:center;
+    margin: 1em;
     h2{
         width: 15em;
     }
@@ -96,7 +97,6 @@
             }
         }
         h2{
-            width: 100%;
             color: $sombra;
             font-size: 1.5em;
             font-weight: bold;

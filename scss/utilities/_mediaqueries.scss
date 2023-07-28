@@ -2,6 +2,13 @@
     *{
         overflow-x: hidden;
     }
+    .error{
+        img,
+        h1,
+        a{
+            margin: 0;
+        }
+    }
     .media{
         display: flex;
         flex-wrap:wrap;

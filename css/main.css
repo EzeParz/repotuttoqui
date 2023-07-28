@@ -154,7 +154,7 @@ h1 {
 }
 .error img {
   width: 50%;
-  margin-top: -4.5em;
+  margin-top: -5em;
 }
 .error h1 {
   color: rgb(217, 207, 255);
@@ -227,6 +227,7 @@ footer .typPf {
   font-size: 1em;
   text-align: center;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .productos {
@@ -280,6 +281,7 @@ footer .typPf {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 1em;
 }
 .centrar2 h2 {
   width: 15em;
@@ -337,7 +339,6 @@ footer .typPf {
   transition: 0.2s;
 }
 #productos1 .card-body h2 {
-  width: 100%;
   color: rgba(234, 222, 222, 0.895);
   font-size: 1.5em;
   font-weight: bold;
@@ -419,6 +420,11 @@ footer .typPf {
 @media (width < 1024px) {
   * {
     overflow-x: hidden;
+  }
+  .error img,
+  .error h1,
+  .error a {
+    margin: 0;
   }
   .media {
     display: flex;
