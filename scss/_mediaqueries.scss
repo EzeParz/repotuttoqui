@@ -1,4 +1,7 @@
 @media (width <1024px){
+    *{
+        overflow-x: hidden;
+    }
     .media{
         display: flex;
         flex-wrap:wrap;
