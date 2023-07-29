@@ -1,4 +1,4 @@
-Bienvenidos al Repo de Tutoqui.
+Bienvenidos al Repo de Tuttoqui🚀🚀🚀.
 
 Hola, Mi nombre es Ezequiel Parziale, soy Argentino, de 28 años, y estoy cursando la carrera de Desarrollador Web Full Stack.
 
