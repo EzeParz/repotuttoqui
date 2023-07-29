@@ -33,7 +33,9 @@ Slds.
 Atte. Ezequiel Parziale
 
 Github Pages      https://ezeparz.github.io/repotuttoqui/
+
 Vercel            https://repotuttoqui.vercel.app/
+
 Link Repo Github  https://github.com/EzeParz/repotuttoqui.git
 
 # repotuttoqui
